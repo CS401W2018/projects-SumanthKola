@@ -1,6 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #first {
     color: blue;
+}
+
+.second {
+    color:rgb(229, 17, 17);
+}
+
+.third{
+    color: blueviolet;
 }
