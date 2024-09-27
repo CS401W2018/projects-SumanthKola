@@ -6,10 +6,18 @@ body {
     color: blue;
 }
 
-.second {
+.red {
     color:rgb(229, 17, 17);
 }
 
-.third{
-    color: blueviolet;
+.bigger{
+    font-size: 20pt;
+}
+
+main .bigger {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bolder {
+    font-weight: 600;
 }
