@@ -1,0 +1,22 @@
+body {
+    font-family:cursive;
+    color: rgb(157, 91, 91);
+    background-color: beige;
+    font-size: medium;
+}   
+
+.bolder {
+    font-family: fantasy;
+    color: brown;
+}
+
+#highlight {
+    background-color: bisque;
+    color: brown;
+}
+
+.emphasized {
+    font-style: italic;
+}
+
+
