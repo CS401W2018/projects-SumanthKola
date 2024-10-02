@@ -1,0 +1,10 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: rgb(30, 0, 255);
+}
+
+#sizing {
+    width: 500px;
+}
+
