@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(0, 231, 154);
+    background-image: url('green\ image.avif');
+    background-position:inherit;
+}
+
+nav a {
+    color: rgb(238, 242, 0);
+}
+
+.current {
+    color:gray}
+
+header {
+    background: url('flower.png') top right no-repeat;
+}
+
+.list {
+    list-style-image: url(bulletpoint.png);
+}
+
