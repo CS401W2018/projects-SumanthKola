@@ -1,0 +1,13 @@
+.list {
+    list-style-image: url(bulletstar.png);
+}
+
+body {
+    background-image: url(background.jpg);
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: url('Indianflag.png')
+}
