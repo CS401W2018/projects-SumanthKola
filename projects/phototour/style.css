@@ -11,3 +11,7 @@ body {
 nav {
     background: url('Indianflag.png')
 }
+
+.link {
+    color: brown;
+}
