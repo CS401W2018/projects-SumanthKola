@@ -13,10 +13,7 @@ header {
 }
 header h1 {
     margin-bottom: 0;
-    border-width: 5px;
-    border-color: brown;
-    border-style:dotted
-
+    border: 3px brown dashed
 }
 
 nav {
