@@ -6,6 +6,7 @@ body {
     width: 600px;
     margin: auto;
     background-color: rgb(188, 228, 228);
+    border: thin solid;
 }
 header {
     background-color: burlywood;
