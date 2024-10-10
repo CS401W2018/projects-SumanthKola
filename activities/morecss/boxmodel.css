@@ -1,7 +1,12 @@
 body {
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+#wrapper {
+    width: 600px;
+    margin: auto;
+    background-color: rgb(188, 228, 228);
+}
 header {
     background-color: burlywood;
     width: 70%;
@@ -21,4 +26,9 @@ nav {
     height: 100px;
     margin-top: 40px;
     
+}
+
+figure {
+    border: thin solid #0e0d0d;
+    width: 360px;
 }
