@@ -14,11 +14,11 @@ nav {
 
 #spider {
     background-color: bisque;
-    border: think solid black;
+    border: thin solid black;
     float: left;
 }
 
 .end {
     clear: both;
 }
-}
+
