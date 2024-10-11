@@ -11,6 +11,20 @@ nav {
     width:200px;
     background-color: aqua;
 }
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: block;
+    padding: 10px   30px;
+    border-bottom: thin solid white;
+    background-color: aquamarine;
+    float: left;
+}
 
 #spider {
     background-color: bisque;
@@ -21,4 +35,6 @@ nav {
 .end {
     clear: both;
 }
+
+
 
