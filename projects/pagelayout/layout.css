@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(255, 200, 134);
+}
+
+#kick {
+    border: solid black;
+    width: 290px;
+    height: 460px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.end {
+    clear: both;
+}
+
+.wrapper {
+    margin: auto;
+    
+}
