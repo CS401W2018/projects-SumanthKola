@@ -1,8 +1,9 @@
 body {
     background-color: rgb(251, 251, 251);
-    font: weight 100px;;
+    font: weight 500;
     font-size: medium;
-
+    font-family:Arial, Helvetica, sans-serif;
+}
 #kick {
     border: solid black;
     width: 290px;
@@ -19,6 +20,11 @@ body {
     width: 900px;
     margin: auto;
     background-color: rgb(242, 181, 100);
+    height: auto;
+    padding:10px;
+    border: 100px;
+    border-radius: 30px;
+    box-shadow:none;
 }
 
 footer {
@@ -29,5 +35,15 @@ footer {
 .fontsize {
     font-size: x-large;
     font-style: italic;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height:1.5;
+    text-transform:capitalize;
+    text-shadow: rgb(0, 0, 0);
+}
+
+header {
+    text-align: center;
+    background-image: url(wood1.avif);
+
 }
