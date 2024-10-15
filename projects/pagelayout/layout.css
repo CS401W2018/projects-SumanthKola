@@ -47,27 +47,19 @@ header {
     background-image: url(wood1.avif);
 
 }
-
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 nav li {
     display: inline;
-    margin: 0;
-    margin: 0;
 }
 
 nav a {
-    display: block;
+    display:ruby;
     padding: 10px  30px;
-    border-bottom: thin solid white;
-    background-color: rgb(21, 242, 168);
+    border-bottom: thin solid rgb(0, 0, 0);
+    background-color: rgb(177, 61, 40);
     float: left;
-    color: brown;
+    color: black;
 }
-
-nav a:hover{
+nav a:hover {
     color: blue;
     background-color: white;
+}
