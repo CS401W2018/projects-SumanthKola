@@ -54,6 +54,7 @@ nav li {
 nav a {
     display:ruby;
     padding: 10px  30px;
+    background-color: rgb(177, 61, 40);
     float: left;
     color: black;
 }
