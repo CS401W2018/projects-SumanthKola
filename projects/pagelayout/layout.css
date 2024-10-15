@@ -1,6 +1,5 @@
 body {
     background-color: rgb(251, 251, 251);
-    font-style:oblique;
     font: weight 100px;;
     font-size: medium;
 
@@ -29,4 +28,6 @@ footer {
 
 .fontsize {
     font-size: x-large;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
