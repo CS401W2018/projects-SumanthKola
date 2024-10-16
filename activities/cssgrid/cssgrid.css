@@ -1,0 +1,15 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.container {
+    background-color: burlywood;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    background-color: rgb(197, 197, 136);
+    border: thin solid black;
+}
