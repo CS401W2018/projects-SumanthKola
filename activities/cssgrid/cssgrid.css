@@ -7,9 +7,33 @@ body {
     padding: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "lside main rside"
+        "footer footer footer";
 }
 
 .item {
     background-color: rgb(197, 197, 136);
     border: thin solid black;
+}
+
+.itemA {
+    grid-area: lside;
+}
+.itemB {
+    grid-area: rside;
+}
+.itemC {
+    grid-area: main;
+}
+.itemD {
+    grid-area: header;
+}
+.itemE {
+    grid-area: footer;
+}
+.itemF {
+    grid-area: main;
 }
