@@ -5,10 +5,9 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
     gap: 5px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
 }
 .item {
     background-color: aquamarine;
