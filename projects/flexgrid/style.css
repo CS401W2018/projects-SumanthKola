@@ -16,5 +16,10 @@ nav a {
 }
 
 .container {
-    
+
+}
+
+footer a {
+    justify-content: space-evenly;
+    display: block;
 }
