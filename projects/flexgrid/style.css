@@ -19,10 +19,18 @@ nav a {
     display: flex;
 }
 
-footer a {
-    justify-content: space-evenly;
+footer {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+  }
+  
+  footer a {
+    color: rgb(33, 73, 252);
     display: block;
-}
+    padding: 5px;
+  }
 
 .card {
   border: 1px solid #ccc;
