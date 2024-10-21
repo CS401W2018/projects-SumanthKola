@@ -4,12 +4,17 @@ body {
     color: azure;
 }
 
-.navbar {
-    display: block;
-    
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: aliceblue;
 }
 
-.navflex {
-    flex-flow: row;
-    display: flexboxx;
+nav a {
+    display: block;
+}
+
+.container {
+    
 }
