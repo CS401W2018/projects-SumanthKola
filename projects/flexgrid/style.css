@@ -16,7 +16,7 @@ nav a {
 }
 
 .container {
-
+    display: flex;
 }
 
 footer a {
@@ -24,7 +24,19 @@ footer a {
     display: block;
 }
 
-.card  {
-    max-width: 100%;
-    height: auto;
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin: 0.5rem 0;
 }
