@@ -23,3 +23,8 @@ footer a {
     justify-content: space-evenly;
     display: block;
 }
+
+.card  {
+    max-width: 100%;
+    height: auto;
+}
