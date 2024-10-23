@@ -4,7 +4,12 @@ body {
     color: rgb(186, 106, 2);
 }
 
-main img {
-    border: thin solid black; 
-    margin: auto;  
+.Kangaroo {
+    width: 600px;
+    border: solid rgb(0, 105, 176); 
+    overflow: hidden;
+}
+
+.Kangaroo img {
+    width: 100%
 }
