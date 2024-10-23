@@ -4,12 +4,12 @@ body {
     color: rgb(186, 106, 2);
 }
 
-.Kangaroo {
-    width: 600px;
-    border: solid rgb(0, 105, 176); 
-    overflow: hidden;
+.card {
+    width: 250px;
+    border: solid rgb(0, 105, 176);
+    box-shadow: 3px 3px 4px black;
 }
 
-.Kangaroo img {
+.card img {
     width: 100%
 }
