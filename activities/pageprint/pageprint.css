@@ -19,3 +19,21 @@ body {
 .card img {
     width: 100%
 }
+
+nav {
+    background-color: rgb(163, 211, 248);
+}
+nav a {
+    display: block;
+    padding: 5px 10px;
+    color: brown;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 153, 255);
+    color: azure;
+}
