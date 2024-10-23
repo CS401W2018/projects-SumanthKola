@@ -4,3 +4,7 @@ body {
     color: rgb(186, 106, 2);
 }
 
+main img {
+    border: thin solid black; 
+    margin: auto;  
+}
