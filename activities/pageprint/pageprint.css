@@ -4,10 +4,16 @@ body {
     color: rgb(186, 106, 2);
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card {
     width: 250px;
     border: solid rgb(0, 105, 176);
     box-shadow: 3px 3px 4px black;
+    margin: 5px;
 }
 
 .card img {
