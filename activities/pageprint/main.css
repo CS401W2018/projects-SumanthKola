@@ -22,11 +22,17 @@ body {
 
 nav {
     background-color: rgb(163, 211, 248);
+    display: flex;
+    justify-content: space-around;
 }
 nav a {
     display: block;
     padding: 5px 10px;
     color: brown;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
 }
 
 header h1 {
