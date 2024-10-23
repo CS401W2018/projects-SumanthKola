@@ -24,6 +24,7 @@ nav {
     background-color: rgb(163, 211, 248);
     display: flex;
     justify-content: space-around;
+    display: none; /*to hide nav links when printing */
 }
 nav a {
     display: block;
