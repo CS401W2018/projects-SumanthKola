@@ -56,4 +56,11 @@ header {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .card {
+        width: 100%;
+        margin: 10px;
+    }
+    .main-card {
+        order: -1;
+    }
 }
