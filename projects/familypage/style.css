@@ -9,10 +9,12 @@ nav {
 
 .container {
     display: flex;
-    width: 60%;
+    flex-flow: wrap;
 
 }
 
 #family {
     border: solid black;
 }
+
+
