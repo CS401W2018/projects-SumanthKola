@@ -17,4 +17,7 @@ nav {
     border: solid black;
 }
 
+figure img {
+    width: 30%;
+}
 
