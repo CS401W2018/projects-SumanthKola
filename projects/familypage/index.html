@@ -4,31 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Family - Responsive Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css" media = "screen">
+    <link rel="stylesheet" href="print.css" media = "print">
+
 </head>
 <body>
     <header>
-        <h1>Kola's family!</h1>
+        <h1>Kola's Family </h1>
+        <nav>
+            <a href="#">Hannah</a>
+            <a href="#">Aamani</a>
+            <a href="#">Teja</a>
+            <a href="#">Jessica</a>
+            <a href="#">More</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-    </nav>
-    <div class = "container">
+    <div class="content-wrapper">
         <aside>
-            <figure id = "family">
-            <img src="image.jpg" alt="fake picture">
-            <figcaption><h2>Family Picture</h2></figcaption>
+            <figure>
+                <img src="parents.JPG" alt="Family Photo">
+                <figcaption> <h2>My parents </h2></figcaption>
+                <p> Dad was born in 1974 and Mom was born in 1970. They were married for 30 years.</p>
             </figure>
+            <ul>
+                <li>They love 80's Telugu songs .</li>
+                <li>My mom loves to make Indian snacks every evenings.</li>
+                <li>They love the gospel.</li>
+            </ul>
         </aside>
         <main>
-            <h2>Here's my each family member</h2>
+            <article>
+                <figure>
+                    <img src="brother.JPG" alt="Yashwanth">
+                    <figcaption><h2>Yashwanth Kola</h2></figcaption>
+                </figure>
+                <p>He is the oldest child born in 1995. He graduated with a Electrical Engineering Degree in Rajahmundry. He loves to play cricket, and piano. He's married to Aamani and has one beautiful 2 year old daughter Jessica.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="sister.jpeg" alt="Swarna">
+                    <figcaption><h2>Swarna Kola</h2></figcaption>
+                </figure>
+                <p>She is the middle child born in 1998. She loves to cook and makes delicious food for the family. She is a great henna artist. She's married to Teja and is currently pregnant.</p>
+            </article>
+
+            <article>
+                <figure>
+                    <img src="sumanth.jpg" alt="Sumanth">
+                    <figcaption><h2>Sumanth Kola</h2></figcaption>
+                </figure>
+                <p>He is the youngest in the family born in 1999. He served a mission in IBM. He loves cricket just like his brother and is pursuing a bachelor's degree in computer science at BYUH. He is engaged to Hannah and soon to be married. </p>
+            </article>
         </main>
     </div>
+
     <footer>
         <p>&copy; 2024 Sumanth Kola</p>
     </footer>
