@@ -90,3 +90,20 @@ footer {
     width: 100%;
   }
 }
+
+@media print {
+    /* Hide navigation bar */
+    nav {
+        display: none;
+    }
+
+    /* Optionally hide header and footer for clean print */
+    header, footer {
+        display: none;
+    }
+
+    /* Full-width for all sections in print */
+    aside, main, article {
+        width: 100%;
+    }
+}
