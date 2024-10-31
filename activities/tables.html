@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables </title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+<body>
+    <header>My class schedule:</header>
+    <br>
+    <main>
+        <table class ="schedule">
+            <thead>
+                <tr>
+                    <th>Class</th><th>Location</th><th>Time</th><th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="4">Information Technology</th>
+                </tr>
+                <tr>
+                    <td>IT 240</td><td>P2</td><td rowspan="2">11am</td><td rowspan="2">3</td>
+                </tr>
+                <tr>
+                    <td>IT 240</td><td>P3</td>
+                </tr>
+            </tbody>
+            <thead>
+                <th>Class</th><th>Location</th><th>Time</th><th>Credits</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="4">Computer Science</th>
+                </tr>
+                <tr>
+                    <td>CS 311</td><td>P2</td><td rowspan="2">11am</td><td rowspan ="2">3</td>
+                </tr>
+                <tr>
+                    <td>CS 311</td><td>P3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="3" id ="totalcredits">Total Credits</th>
+                <td headers="totalcredits">12</td>
+            </tfoot>
+            </table>
+    </main>
+</body>
+</html>
