@@ -18,12 +18,17 @@
     </nav>
     <main>
         <form action="processing.html" method = "post"> <br>
-            First Name: <input type="text" name ="first" value="Sumanth" required j=""required> <br>
-            <br>
-            Last Name: <input type="text" name = "last" placeholder="Last Name"> <br>
-            <br>
-            Password: <input type="password" name = "pass"> <br>
-            <br>
+            <div class = "form-row">
+                <label for = "fname">First Name: </label>
+                <input id = "fname" type="text" name ="first" value="Joe" required>
+            </div>
+                <div><label for="lname">Last Name:</label>
+                <input id = "lname" type="text" name = "last" placeholder="Last Name">
+            </div>
+            <div>
+                <label for="pword"> Password: </label>
+                <input id = "pword" type="password" name = "pass">
+            </div>
             Remember me <input type="checkbox" name="Remember" checked> <br>
             Grade: <input type="radio" name="grade" value="Freshman"> Freshman <br>
             <input type="radio" name="grade" value="Freshman"> Sophomore <br>
