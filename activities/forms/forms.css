@@ -2,3 +2,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: antiquewhite;
 }
+
+fieldset {
+    box-shadow: 3px 3px 3px;
+    background-color: beige;
+}
+
+legend {
+    border: thin solid black;
+    background-color: blue;
+    padding: 10x;
+    color: white;
+}
+
+.form-row   {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
