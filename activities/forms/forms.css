@@ -25,3 +25,13 @@ legend {
     width: 150px;
     text-align: right;
 }
+
+.spacer {
+    width: 150px;
+    text-align: right;
+}
+.check-row {
+    display: flex;
+    gap: 10px;
+
+}
