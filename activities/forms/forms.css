@@ -26,6 +26,15 @@ legend {
     text-align: right;
 }
 
+.form-row input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.form-row input:focus {
+    background-color: white;
+}
 .spacer {
     width: 150px;
     text-align: right;
@@ -34,4 +43,14 @@ legend {
     display: flex;
     gap: 10px;
 
+}
+
+@media only screen and (max-width:600px) {
+    .form-row {
+        flex-direction: column;
+    
+    .form-row label {
+        text-align: left;
+    }
+    }
 }
