@@ -35,25 +35,29 @@
                 <input type="checkbox" name="Remember" checked> Remember me
                 </label>
             </div>
-            Grade: <input type="radio" name="grade" value="Freshman"> Freshman <br>
-            <input type="radio" name="grade" value="Freshman"> Sophomore <br>
-            <input type="radio" name="grade" value="Freshman"> Junior <br>
-            <input type="radio" name="grade" value="Freshman"> Senior <br>
-            <select name="state" id="state">
-                <option value="blank"></option>
-                <option value="Hawaii">Hawaii</option>
-                <option value="California">California</option>
-                <option value="Utah">Utah</option>
-                <option value="Colorado">Colorado</option>
-            </select>
-            <br>
-            <textarea name="comment" id=""></textarea>
-            <br>
-            <br>
+            <div class = "form-row">  
+                    Grade: 
+                    <label><input type="radio" name="grade" value="Freshman"> Freshman</label>
+                    <label></label><input type="radio" name="grade" value="Freshman"> Sophomore</label>
+                    <label></label><input type="radio" name="grade" value="Freshman"> Junior</label>
+                    <label></label><input type="radio" name="grade" value="Freshman"> Senior</label>
+            </div>
+            <div class = "form-row">
+                <select name="state" id="state" State>
+                    <option value="blank"></option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="California">California</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Colorado">Colorado</option>
+                </select>
+            </div>
+            <label> Comments </label>
+            <textarea name="comment" id=""> </textarea>
+
             <input type="date">
-            <br>
-            <br>
-            <input type="submit">
+            <div class="form-row">
+                <input type="submit">
+            </div>
         </form>
         <h2>Engagement Assignment</h2>
         <p>1. The “action” attribute in a form tag specifies the URL where the form data will be sent upon submission</p>
