@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+<header>
+    <h1>Registration Form</h1>
+</header>
+
+<main>
+    <form action="processing.html" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">Select</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="us">US</option>
+                <option value="ind">India</option>
+            </select>
+
+            <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024 Sumanth Kola</p>
+</footer>
+
+</body>
+</html>
