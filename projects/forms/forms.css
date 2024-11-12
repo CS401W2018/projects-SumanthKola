@@ -28,7 +28,6 @@ main {
     box-shadow: 5px 5px 10px;
 }
 
-
 fieldset {
     border: 1px solid #ddd;
     padding: 20px;
@@ -37,7 +36,6 @@ fieldset {
 
 legend {
     font-weight: bold;
-    padding: 0 10px;
     color: #333;
 }
 
@@ -48,17 +46,10 @@ label {
     margin-top: 10px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="tel"],
-input[type="date"],
-textarea,
-select {
+.boxes {
     flex: 1;
     padding: 8px;
     margin-left: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
