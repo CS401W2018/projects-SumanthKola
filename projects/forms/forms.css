@@ -48,14 +48,10 @@ label {
 
 .boxes {
     flex: 1;
-    padding: 8px;
+    padding: 10px;
     margin-left: 10px;
     border-radius: 5px;
-}
 
-input[type="radio"],
-input[type="checkbox"] {
-    margin-right: 5px;
 }
 
 button {
@@ -64,26 +60,16 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     margin-top: 20px;
 }
 
-button:hover {
-    background-color: #555;
-}
-
-/* Align form elements horizontally for desktop view */
 form label {
     display: flex;
     justify-content: space-between;
 }
 
-form label, input[type="checkbox"], input[type="radio"] {
-    margin-bottom: 10px;
-}
 
-/* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     main {
         width: 90%;
     }
