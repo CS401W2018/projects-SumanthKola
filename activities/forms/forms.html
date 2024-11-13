@@ -76,7 +76,14 @@
         document.getElementById('myForm').addEventListener('submit',function(event) {
             event.preventDefault();
             const fname = document.getElementById('fname').value;
-            console.log(fname);
+            const lname = document.getElementById('lname').value;
+            const pword = document.getElementById('pword').value;
+            const formData = {
+                fname:fname,
+                lname:lname,
+                pword:pword
+            }
+            console.log(formData);
             alert("You submitted the form!")
         })
     </script>
