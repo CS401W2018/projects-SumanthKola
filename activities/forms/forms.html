@@ -83,6 +83,9 @@
                 lname:lname,
                 pword:pword
             }
+            if (!fname || !lname) {
+                alert("First name and Last Name required");
+            }
             console.log(formData);
             alert("You submitted the form!")
         })
