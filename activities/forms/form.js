@@ -20,6 +20,7 @@ document.getElementById('myForm').addEventListener('submit',function(event) {
             message - JSON.parse(xhr.response)
             document.getElementById("message").innerHTML = response.message;
             document.getAnimations("myForm").innerHTML = "";
+            alet('Subbmitted.');
         } else if (xhr.readyState === 4) {
             alert('Error Submitting Form.');
         }
