@@ -16,6 +16,7 @@
         <a href="#">link</a>
         <a href="#">link</a>
     </nav>
+    <div id="message"></div>
     <main>
         <form action="processing.html" method = "post" id = "myForm">
             <fieldset>
@@ -90,7 +91,9 @@
             xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
-                    message - JSON.parse(xhr.response).
+                    message - JSON.parse(xhr.response)
+                    document.getElementById("message").innerHTML = response.message;
+                    document.getAnimations("myForm").innerHTML =
                     alert('Form submitted succesfully.');
                 } else if (xhr.readyState === 4) {
                     alert('Error Submitting Form.');
