@@ -17,7 +17,7 @@ document.getElementById('myForm').addEventListener('submit',function(event) {
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            message - JSON.parse(xhr.response)
+            const response = JSON.parse(xhr.responseText);
             document.getElementById("message").innerHTML = response.message;
             document.getAnimations("myForm").innerHTML = "";
             alet('Subbmitted.');
