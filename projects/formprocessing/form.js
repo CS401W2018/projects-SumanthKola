@@ -2,7 +2,8 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     event.preventDefault();
     const username = document.getElementById('username').value;
     const email = document.getElementById('email').value;
-    const age = document.getElementById('age').value.trim();
+    const age = document.getElementById('age').value;
+    const phone = document.getElementById('phone').value;
 
     if (!username || !email || !age) {
         alert('Please fill out all fields.');
