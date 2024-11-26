@@ -66,6 +66,10 @@ footer {
     margin-top: 10px;
 }
 
+.image {
+    border: 50px thin solid black;
+}
+
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
