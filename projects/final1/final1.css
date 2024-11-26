@@ -81,6 +81,7 @@ footer {
     box-shadow: 3px 3px 4px black;
     margin: 5px;
     display: grid;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
