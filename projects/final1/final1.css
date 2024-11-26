@@ -74,15 +74,9 @@ footer {
     margin: 5px;
 }
 
-.trophy {
-    width: 150px;
-    height: 240px;
-    border: solid rgb(0, 105, 176);
-    box-shadow: 3px 3px 4px black;
-    margin: 5px;
-    display: block;
-    justify-content: center;
-    
+.trophy-container {
+    text-align: center;
+    padding: 10px;
 }
 
 @media (max-width: 600px) {
