@@ -81,6 +81,7 @@ footer {
     box-shadow: 3px 3px 4px black;
     margin: 5px;
     display: block;
+    justify-content: center;
     
 }
 
@@ -91,5 +92,8 @@ footer {
     }
     table {
         font-size: 12px;
+    }
+    .trophy {
+        width: 50px;
     }
 }
