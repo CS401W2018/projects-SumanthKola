@@ -4,20 +4,20 @@ body {
 
 header {
     text-align: center;
-    background: #0255a8;
+    background: #025ab1;
     color: white;
     padding: 10px 0;
 }
 
 nav {
-    background: #f4f4f4;
+    background: #f5f4f4;
     text-align: center;
     padding: 10px;
 }
 
 nav a {
     text-decoration: none;
-    color: #00509e;
+    color: #0358ad;
     margin: 15px;
     padding: 5px 10px;
 }
@@ -39,29 +39,29 @@ table {
 
 table caption {
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 table th, table td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #d5d2d2;
+    padding: 10px;
     text-align: left;
 }
 
 table th {
-    background: #00509e;
+    background: #0158ae;
     color: white;
 }
 
 table tr:nth-child(even) {
-    background: #aaa6a6;
+    background: #c9c6c6;
 }
 
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #00509e;
+    background: #014e9a;
     color: white;
     margin-top: 10px;
 }
