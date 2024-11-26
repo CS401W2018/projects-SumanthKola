@@ -54,7 +54,7 @@ table th {
 }
 
 table tr:nth-child(even) {
-    background: #f9f9f9;
+    background: #aaa6a6;
 }
 
 
