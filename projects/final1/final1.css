@@ -74,6 +74,10 @@ footer {
     margin: 5px;
 }
 
+.highlight {
+    color: blue;
+}
+
 .trophy-container {
     text-align: center;
     padding: 10px;
