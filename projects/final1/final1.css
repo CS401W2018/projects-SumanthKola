@@ -91,6 +91,10 @@ figure {
     margin: 5px;
 }
 
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
