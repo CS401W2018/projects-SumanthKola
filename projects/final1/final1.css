@@ -93,7 +93,9 @@ footer {
     table {
         font-size: 12px;
     }
-    img {
-        size: 50px;
+    .image, .trophy {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
     }
 }
