@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Sport - World Test Championship</title>
+    <link rel="stylesheet" href="final1.css">
+</head>
+<body>
+    <header>
+        <h1>World Test Championship 2025!</h1>
+    </header>
+    <nav>
+        <a href="final1.html">Home</a>
+        <a href="india.html">India</a>
+        <a href="australia.html">Australia</a>
+        <a href="england.html">England</a>
+        <a href="southafrica.html">South Africa</a>
+        <a href="form.html" class = "highlight">Notifications Form</a>
+    </nav>
+    <main>
+        <h2>Sign up here to get notifications about the matches and scores and participate to win exciting prizes.</h2>
+        <br>
+        <h4>Stay up-to-date when it comes to cricket!</h4>
+        <form method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+    
+                <div class = "boxes">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+                <div class = "boxes">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+                <div class = "boxes">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+                </div>
+                <div class = "boxes">
+                <label for="comments">Your Best Cricket Comment:</label>
+                <textarea id="comments" name="comments"></textarea>
+                </div>
+    
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+                <br>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">Select</option>
+                    <option value="canada">India</option>
+                    <option value="uk">Australia</option>
+                    <option value="us">South Africa</option>
+                    <option value="ind">England</option>
+                </select>
+    
+                <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
+    
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sumanth Kola</p>
+    </footer>
+</body>
+</html>
