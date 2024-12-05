@@ -22,7 +22,7 @@
         <h2>Sign up here to get notifications about the matches and scores and participate to win exciting prizes.</h2>
         <br>
         <h4>Stay up-to-date when it comes to cricket!</h4>
-        <form action="processing.html" method="post">
+        <form method = "get" id = "myForm">
             <fieldset>
                 <legend>Personal Information</legend>
     
@@ -50,11 +50,11 @@
                 <br>
                 <label for="country">Country:</label>
                 <select id="country" name="country">
-                    <option value="usa">Select</option>
-                    <option value="canada">India</option>
-                    <option value="uk">Australia</option>
-                    <option value="us">South Africa</option>
-                    <option value="ind">England</option>
+                    <option value="select">Select</option>
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="England">England</option>
                 </select>
     
                 <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
@@ -66,5 +66,7 @@
     <footer>
         <p>&copy; 2024 Sumanth Kola</p>
     </footer>
+    <script src="form.js"></script>
+    <div id="response"></div>
 </body>
 </html>
